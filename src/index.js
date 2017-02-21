@@ -1,1 +1,5 @@
-console.log('hello src')
+const sourceMapPlugin = (md, name) => {
+
+}
+
+export default sourceMapPlugin
