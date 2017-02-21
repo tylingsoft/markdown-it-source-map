@@ -8,10 +8,10 @@ mdi.use(markdownItSourceMap)
 
 describe('tokens', function () {
   it('should render heading correctly', function () {
-    assert(mdi.render('# Hello world').trim() === '<h1>Hello world</h1>', '# Hello world')
+    assert.equal('<h1 data-source-line="1">Hello world</h1>', mdi.render('# Hello world').trim())
   })
   it('should render paragraph correctly', function () {
-    assert(mdi.render('Hello world').trim() === '<p>Hello world</p>', 'Hello world')
+    assert.equal('<p data-source-line="1">Hello world</p>', mdi.render('Hello world').trim())
   })
 })
 

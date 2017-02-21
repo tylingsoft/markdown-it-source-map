@@ -1,4 +1,4 @@
-const sourceMapPlugin = (md, name) => {
+const sourceMapPlugin = (md) => {
 
 }
 
