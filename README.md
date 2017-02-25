@@ -19,7 +19,7 @@ import markdownItSourceMap from 'markdown-it-source-map'
 const mdi = markdownIt()
 mdi.use(markdownItSourceMap)
 
-mid.render('# hello world') // <h1 data-source-line="1">hello world</h1>
+mdi.render('# hello world') // <h1 data-source-line="1">hello world</h1>
 ```
 
 
