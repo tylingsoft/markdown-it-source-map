@@ -1,6 +1,6 @@
 {
   "name": "markdown-it-source-map",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Add source map to the output HTML of markdown-it.",
   "main": "src/index.bundle.js",
   "scripts": {
@@ -14,11 +14,12 @@
   "devDependencies": {
     "babel-core": "^6.23.1",
     "babel-loader": "^6.3.2",
-    "babel-preset-env": "^1.1.8",
+    "babel-preset-env": "^1.1.11",
     "markdown-it": "^8.3.0",
     "mocha": "^3.2.0",
     "npm-check-updates": "^2.10.3",
-    "standard": "^8.6.0",
-    "webpack": "^2.2.1"
+    "standard": "^9.0.0",
+    "webpack": "^2.2.1",
+    "webpack-node-externals": "^1.5.4"
   }
 }

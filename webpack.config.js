@@ -1,5 +1,8 @@
+const nodeExternals = require('webpack-node-externals')
+
 const config = {
   target: 'node',
+  externals: [nodeExternals()],
   entry: {
     'src/index': './src/index.js',
     'test/index': './test/index.js'
